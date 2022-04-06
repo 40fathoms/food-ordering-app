@@ -1,0 +1,18 @@
+html{
+    font-size: 100%;  // control zoom level
+    box-sizing: border-box; // include padding in final width
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;  
+    background-color: #727272;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
