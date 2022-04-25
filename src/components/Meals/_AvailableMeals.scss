@@ -11,6 +11,20 @@
     }
 }
 
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
 @keyframes meals-appear {
     from {
         opacity: 0;
